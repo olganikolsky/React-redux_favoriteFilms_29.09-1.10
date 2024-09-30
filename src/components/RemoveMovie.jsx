@@ -1,5 +1,6 @@
 import { useSelector, useDispatch } from 'react-redux';
 import { removeMovie } from '../features/movies/favoriteMoviesSlice';
+import './RemoveMovie.css';
 
 const FavoriteMoviesList = () => {
   const movies = useSelector((state) => state.favoriteMovies.movies);

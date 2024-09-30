@@ -4,7 +4,7 @@ import { addMovie } from '../features/movies/favoriteMoviesSlice';
 
 const MovieInput = () => {
   const [movieTitle, setMovieTitle] = useState('');
-  const dispatch = useDispatch;
+  const dispatch = useDispatch();
 
   const handleAddMovie = () => {
     if (movieTitle.trim()) {
